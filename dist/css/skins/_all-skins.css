@@ -572,10 +572,11 @@
   background: #f4f4f5;
 }
 .skin-black-light .sidebar-menu > li.active {
-  border-left-color: #ffffff;
+  border-left-color: #3c8dbc;
 }
 .skin-black-light .sidebar-menu > li.active > a {
   font-weight: 600;
+  border-left-color: #3c8dbc;
 }
 .skin-black-light .sidebar-menu > li > .treeview-menu {
   background: #f4f4f5;

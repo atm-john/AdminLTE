@@ -195,7 +195,7 @@ a:focus {
   -o-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   margin-bottom: 0;
-  margin-left: 230px;
+  /*margin-left: 230px;*/
   border: none;
   min-height: 50px;
   border-radius: 0;
@@ -253,7 +253,7 @@ a:focus {
   font-family: fontAwesome;
 }
 .main-header .sidebar-toggle:before {
-  content: "\f0c9";
+  content: "\f039";
 }
 .main-header .sidebar-toggle:hover {
   color: #fff;
@@ -441,6 +441,12 @@ a:focus {
     -o-transform: translate(-230px, 0);
     transform: translate(-230px, 0);
   }
+
+  .navbar-custom-menu.navbar-main-menu .navbar-nav > li > a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    line-height: 20px;
+  }
 }
 @media (max-width: 767px) {
   .sidebar-open .main-sidebar {
@@ -609,7 +615,7 @@ a:focus {
     display: none;
   }
   .sidebar-mini.sidebar-collapse .main-header .navbar {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
   }
 }
 @media (min-width: 768px) {
